@@ -147,7 +147,7 @@ function pickCat(id) { activeCat.value = id }
           <p>Hơn 12.000 tác phẩm đã được xác minh, sẵn sàng giao dịch linh hoạt theo nhu cầu sử dụng.</p>
         </div>
         <div class="head-actions">
-          <button class="btn btn-ghost btn-sm">Bộ lọc nâng cao</button>
+          <router-link to="/explore" class="btn btn-ghost btn-sm">Bộ lọc nâng cao / Marketplace</router-link>
           <button class="btn btn-soft btn-sm">Sắp xếp: Phổ biến</button>
         </div>
       </div>

@@ -11,11 +11,11 @@ useReveal()
     <main>
       <router-view v-slot="{ Component, route }">
         <transition name="page" mode="out-in">
-          <component :is="Component" :key="route.fullPath" />
+          <component :is="Component" :key="route.path" />
         </transition>
       </router-view>
     </main>
-    <AppFooter v-if="$route.path !== '/explore'" />
+    <AppFooter />
   </div>
 </template>
 

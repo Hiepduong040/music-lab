@@ -23,9 +23,12 @@ onUnmounted(() => window.removeEventListener('scroll', onScroll))
       </RouterLink>
 
       <nav class="nav-main" aria-label="Primary">
-        <RouterLink to="/explore" class="nav-link">Marketplace</RouterLink>
-        <a href="#categories" class="nav-link">Community</a>
-        <a href="#how" class="nav-link">Licenses</a>
+        <RouterLink to="/" class="nav-link">Khám phá</RouterLink>
+        <RouterLink to="/market" class="nav-link">Marketplace</RouterLink>
+        <a href="#categories" class="nav-link">Thể loại</a>
+        <a href="#artists" class="nav-link">Nghệ sĩ</a>
+        <a href="#how" class="nav-link">Quy trình</a>
+        <a href="#pricing" class="nav-link">Bảng giá</a>
       </nav>
 
       <div class="nav-actions">
